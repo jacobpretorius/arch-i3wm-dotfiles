@@ -190,7 +190,8 @@ client.placeholder      #282A36 #282A36 #F8F8F2 #282A36   #282A36
 client.background       #F8F8F2
 
 bar {
-  status_command i3status
+  #status_command i3status
+  status_command exec /home/jacob/.config/i3status/wrapper.sh
   colors {
     background #20282d
     statusline #F8F8F2
